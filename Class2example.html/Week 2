@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title> Week 2 practice </title>
+</head>
+<body>
+<h1> This is an H1 header</h1>
+<h2> This is an H2 header</h2>
+<h3> This is an H3 header</h3>
+<h4> This is an H4 header</h4>
+<h5> This is an H5 header</h5>
+<h6> This is an H6 header</h6>
+
+<p> Hi, my name is Kensie!</p>
+<p> I'm practicing HTML!</p>
+</body>
+</html>
