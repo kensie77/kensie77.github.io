@@ -1,0 +1,42 @@
+p {
+  color: black;
+  text-align: left;
+}
+#test-id-1 {
+  color:teal;
+
+}
+h1 {
+color:powderblue;
+font:350% san-serif;
+text-align: center;
+
+}
+
+.test-class {
+  font-weight: bolder;
+
+}
+
+a {
+  color: cadetblue;
+  text-align: right;
+}
+a:hover {
+  color: darkorange;
+  font-weight: bold;
+}
+img[src]{
+  width: 60%;
+  height:auto;
+  border-radius: 8px;
+}
+hr {
+  margin-top: auto;
+  border-style: dashed;
+  color: steelblue;
+}
+body {
+  background-color: snow;
+  border-style: double;
+}
