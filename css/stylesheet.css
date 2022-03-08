@@ -11,6 +11,7 @@ color:cadetblue;
 font:350% san-serif;
 text-align: center;
 
+
 }
 
 
@@ -24,7 +25,7 @@ a {
   text-align: right;
 }
 a:hover {
-  color: darkorange;
+  color: cadetblue;
   font-weight: bold;
 }
 .center {
@@ -34,6 +35,24 @@ a:hover {
   width: 60%;
   height:auto;
   border-radius: 8px;
+}
+.LinkedIn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.Email {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.Phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 /*img[src]{
@@ -48,10 +67,10 @@ hr {
   border-style: dashed;
   color: steelblue;
 }
-body {
-  background-color: snow;
-  border-style: double;
-}
+/*body {
+  background-color: lightgray;
+
+}*/
 ul {
   list-style-type: none;
   padding: 20px;
@@ -61,13 +80,15 @@ ul {
 }
 @media screen and (min-width: 400px) {
   body {
-    background-color: lightgray;
+    border-style: double;
+    border-color: cadetblue;
+    background-color: white;
   }
   .box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
     gap: 20px;
   }
@@ -84,6 +105,13 @@ ul {
     padding: 5px;
     grid-column:1;
     grid-row:2;
+  }
+  .extra {
+    background-color: powderblue;
+    text-align: center;
+    padding: 5px;
+    grid-column:1;
+    grid-row:3;
   }
   .content {
     background-color: powderblue;
@@ -103,13 +131,15 @@ ul {
 
 @media screen and (max-width: 399px) {
   body {
-    background-color: lightgray;
+    border-style: double;
+    border-color: cadetblue;
+    background-color: white;
   }
   .box {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
     gap: 10px;
   }
@@ -125,7 +155,7 @@ ul {
     text-align: center;
     padding: 5px;
     grid-column:1;
-    grid-row:2;
+    grid-row:2.5;
   }
   .content {
     background-color: powderblue;
