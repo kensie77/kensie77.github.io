@@ -1,0 +1,8 @@
+button {
+  transition: all 100ms ease-in-out;
+  font-size: 40px;
+}
+.was-clicked {
+  color: pink;
+  padding: 20px;
+}
