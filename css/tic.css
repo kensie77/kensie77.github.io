@@ -1,0 +1,58 @@
+<style>
+
+    h1 {
+        color: cadetblue;
+        font-size: 45px;
+    }
+
+
+
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        border: 1px solid darkorange;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    #button {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid cadetblue;
+        margin: auto;
+        border-radius: 4px;
+        font: georgia;
+
+        background-color: cadetblue;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+
+    #print {
+        font: georgia;
+
+        color: cadetblue;
+        font-size: 20px;
+    }
+
+
+    #main {
+        text-align: center;
+    }
+
+
+    #instructions {
+        font: georgia;
+
+        color: black;
+        font-size: 20px;
+        text-align: center;
+    }
+</style>

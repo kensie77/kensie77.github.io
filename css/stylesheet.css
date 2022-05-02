@@ -12,49 +12,55 @@ p {
 
 a {
   color:cadetblue;
+  text-decoration: none;
 }
 
 a:hover {
-  font-weight:bold;
-  color: cadetblue
+  font-weight:bolder;
+  color: darkorange;
 }
 
 h1{
   color: cadetblue;
   text-align:center;
-  font:350% Sans-serif;
+  font:350% georgia;
+}
+h2{
+  color: cadetblue;
+  text-align:center;
+  font:200% georgia;
 }
 
 .center{
-  width:30%;
+  width:40%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-.cu{
-  width:30%;
+/*.cu{
+  width:20%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 .MorganStanley {
-  width:50%;
+  width:30%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .PeakRunning{
-  width:50%;
+  width:30%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .Precept{
-  width:50%;
+  width:30%;
   height: auto;
   display: block;
   margin-left: auto;
@@ -64,24 +70,31 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
+  width: 20%;
 }
 .Email {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 19%;
 }
 .Phone {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 20%;
 }
 hr {
   margin-top: auto;
   border-style: dotted;
   color: steelblue;
+}
+.Art {
+  width: 50%;
+    text-align:center;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 400px) {
@@ -106,6 +119,7 @@ hr {
       padding: 5px;
       grid-column:span 4;
       grid-row:span 4;
+
     }
     .nav li{
       background-color: powderblue;
@@ -115,12 +129,22 @@ hr {
       height: 50px;
       line-height: 50px;
       display: inline-block;
+      font: georgia;
+    }
+    .nav2 li{
+      padding: 15px 40px;
+      height: 30px;
+      line-height: 20px;
+      display: inline-block;
+      font: georgia;
+      text-align: center;
     }
     .content {
       background-color: powderblue;
       padding: 10px 50px;
       grid-column:span 4;
       grid-row:span 4;
+      font: georgia;
     }
 
 @media screen and (max-width: 399px) {
@@ -150,4 +174,6 @@ hr {
       padding: 20px;
       grid-column:1;
       grid-row:2;
+      font: georgia;
+
     }
